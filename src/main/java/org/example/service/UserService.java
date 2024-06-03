@@ -5,6 +5,6 @@ import org.example.spring.Component;
 /**
  * test bean
  */
-@Component
+@Component("test-bean-1")
 public class UserService {
 }

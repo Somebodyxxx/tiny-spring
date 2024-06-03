@@ -2,9 +2,9 @@ package org.example.spring;
 
 public class BeanDefination {
     /**
-     * bean的全类名
+     * bean的类型
      */
-    private String clazzName;
+    private Class clazz;
 
     /**
      * 标记Bean的类型：singleton、prototype
@@ -12,13 +12,6 @@ public class BeanDefination {
     private String type;
 
 
-    public String getClazzName() {
-        return clazzName;
-    }
-
-    public void setClazzName(String clazzName) {
-        this.clazzName = clazzName;
-    }
 
     public String getType() {
         return type;
@@ -26,5 +19,13 @@ public class BeanDefination {
 
     public void setType(String type) {
         this.type = type;
+    }
+
+    public Class getClazz() {
+        return clazz;
+    }
+
+    public void setClazz(Class clazz) {
+        this.clazz = clazz;
     }
 }

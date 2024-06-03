@@ -5,6 +5,6 @@ import org.example.spring.ComponentScan;
 /**
  * IOC容器入口配置
  */
-@ComponentScan
+@ComponentScan("org.example.service")
 public class Config {
 }
